@@ -34,15 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-
+Semantic HTML is important as it provides context and meaining to the HTML code on the page. For example, instead of giving a new section or div in the page the name of <div class="navigation"> you could give it a more meaningful name with the <nav> semantic HTML markup. This helps keep code clean and easier to understand than having various classes and ids that need explanation.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+display:block takes up the entire space of the block while display:inline only takes up the space it needs in line with the elements around it within the block. Items displayed in block will have an automatic line break after the element while inline will not have an automatic line break.
+
 3. What are the 4 areas of the box model?
+
+Content: the main content of the element
+Padding: the area around the content to increase the size of the box (example - create padding around link element to create a larger button)
+Border: immediately surrounding the content's padding (example - 1px black border line around the padding of the button)
+Margin: the area outside the border that surrounds the element (example - clear area between 2 elements to form blank space between them)
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Cross axis (horizontal for rows, vertical for columns)
+
 5. Explain why git is valuable to a team of developers.
+
+Git is how we create a version history and frequently save and update changes. By using git, multiple developers can check out a repository and update code (example: 1 developer is working on updating feature A while another dev is working on a bug fix for a current feature). These individual checked out branches can then be saved, reverted back to previous versions if needed, and added back to the repository/main code once complete. This new code can be reviewed and then merged back to the main repo once confirmed. Creating branching and merges controls version history both personally and across a team.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
