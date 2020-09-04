@@ -190,6 +190,11 @@ nav a {
     padding: 1% 0;
 }
 
+nav a:hover {
+    color: crimson;
+    font-weight: 1000;
+}
+
 .header-img img {
     display: flex;
     width: 90%;
@@ -199,6 +204,10 @@ nav a {
 
 
 /*Top Content Styles - Home*/
+
+.container {
+    width: 90%;
+}
 
 .top-content {
     display: flex;
@@ -319,6 +328,10 @@ nav a {
     padding: 1% 0;
 }
 
+.about h2 {
+    margin: 0 1%;
+}
+
 
 /*Photo Grid Styles - About*/
 
@@ -360,6 +373,17 @@ p {
 .photo-grid div a:hover {
     background: black;
     color: white;
+}
+
+
+/*Bottom Text Styles - About*/
+
+.bottom-text {
+    margin: 3% 5% 2% 5%;
+}
+
+.bottom-text h2 {
+    margin: 1%;
 }
 
 
